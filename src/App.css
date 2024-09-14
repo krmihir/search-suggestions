@@ -1,0 +1,15 @@
+body {
+  margin-top: 60px; /* Adds margin to avoid content being hidden behind the navbar */
+}
+
+.navbar {
+  position: fixed; /* Ensures the navbar is at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.container-fluid {
+  justify-content: center;
+}
